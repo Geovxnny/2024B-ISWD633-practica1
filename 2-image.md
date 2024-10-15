@@ -27,6 +27,7 @@ Descargar la imagen **hello-world**
 ```docker pull hello-world```
 
 **¿Qué es nginx**
+
 Nginx es un servidor web de alto rendimiento y de código abierto que también puede funcionar como proxy inverso, equilibrador de carga, y servidor de caché.
 
 Descargar la imagen  **nginx** en la versión **alpine**
