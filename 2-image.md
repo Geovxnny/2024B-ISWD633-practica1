@@ -38,7 +38,7 @@ Descargar la imagen  **nginx** en la versión **alpine**
 docker images
 ```
 
-# COLOCAR UNA CAPTURA DE PANTALLA DEL RESULTADO 
+![Docker Images](img/dockerImages.png)
 
 **Identificadores**
 
