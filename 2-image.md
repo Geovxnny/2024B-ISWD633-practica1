@@ -4,7 +4,7 @@ Es un archivo único que contiene todos los programas, librerías, dependencias 
 
 
 ## ¿Cuál es la relación entre una imagen y un contenedor? 
-# COMPLETAR 
+Una imagen en Docker es una plantilla inmutable que contiene el entorno necesario para ejecutar una aplicación. Un contenedor es una instancia activa de esa imagen. Las imágenes son reutilizables, mientras que los contenedores son entornos aislados y temporales. Puedes crear múltiples contenedores a partir de una misma imagen.
 
 ![Imagen y contenedores](img/imagenContenedores.JPG)
 ## Comandos para imágenes
@@ -27,7 +27,7 @@ Descargar la imagen **hello-world**
 ```docker pull hello-world```
 
 **¿Qué es nginx**
-# COMPLETAR 
+Nginx es un servidor web de alto rendimiento y de código abierto que también puede funcionar como proxy inverso, equilibrador de carga, y servidor de caché.
 
 Descargar la imagen  **nginx** en la versión **alpine**
 ```docker pull nginx:alpine```
@@ -55,7 +55,7 @@ docker inspect <nombre imagen>:<tag>
 Inspeccionar la imagen hello-world 
 
 **¿Con qué algoritmo se está generando el ID de la imagen**
-# COMPLETAR
+El ID de una imagen en Docker se genera utilizando un algoritmo de hash llamado SHA256. Cuando se crea una imagen, Docker calcula el hash SHA256 de su contenido (incluyendo las capas de la imagen, metadatos, y otros componentes).
 
 ### Filtrar imágenes
 
