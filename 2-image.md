@@ -53,7 +53,6 @@ docker inspect <nombre imagen>:<tag>
 ```
 
 Inspeccionar la imagen hello-world 
-# COMPLETAR
 
 **¿Con qué algoritmo se está generando el ID de la imagen**
 # COMPLETAR
@@ -69,11 +68,10 @@ docker images | grep <termino a buscar>
 Eliminar permanentemente la imagen de tu sistema Docker.
 
 ```
-docker rmi <nombre imagen>:<tag>
+docker rmi hello world
 ```
 
 Eliminar la imagen hello-world 
-# COMPLETAR
 
 -f: Es la opción para forzar la eliminación de la imagen incluso si hay contenedores en ejecución que utilizan esa imagen.
 Cuando eliminas una imagen Docker, Docker no elimina automáticamente los contenedores que se han creado a partir de esa imagen. Esto significa que, aunque hayas eliminado la imagen, el contenedor seguirá ejecutándose normalmente.  
